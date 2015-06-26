@@ -1,0 +1,55 @@
+#container {
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border:solid;
+    border-width:40px;
+    border-color: red;
+    border-radius:30px;
+}
+h1 {
+    text-align:center;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+#header {
+    text-align:center;
+}
+#grid_data {
+    width: 37.5px;
+    height: 37.5px;
+    float: left;
+    background-color:white;
+}
+#toolbar {
+    height:50px;
+    position:relative;
+}
+.btn_style {
+    color:#FFFFFF;
+    position:absolute;
+    height: 20px;
+    width: 70px;
+    border-radius: 28px;
+    background: #3498db;
+    text-decoration:none;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-left: 47%;
+    text-shadow: 1px 1px 3px #666666;
+    cursor:default;
+}
+#rst_btn {
+    left:-110px;
+}
+#grid_btn {
+    left:110px;
+}
+
+.black {
+    opacity:0;
+}
